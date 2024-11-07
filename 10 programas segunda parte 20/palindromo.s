@@ -1,5 +1,6 @@
 //lucero velazquez morales
 //Verificar si una cadena es palíndromo
+//ejercicio 11
 
 //codigo en c#
 
