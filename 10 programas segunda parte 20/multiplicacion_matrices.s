@@ -3,6 +3,48 @@
 //07-11-24
 //ejercicio 20
 
+//c#
+/*
+using System;
+
+class Program
+{
+    // Función para multiplicar dos matrices
+    static int[,] MultiplicarMatrices(int[,] A, int[,] B)
+    {
+        // Obtener el número de filas de A y el número de columnas de B
+        int filasA = A.GetLength(0);
+        int columnasA = A.GetLength(1);
+        int filasB = B.GetLength(0);
+        int columnasB = B.GetLength(1);
+
+        // Verificar si la multiplicación es posible: columnas de A == filas de B
+        if (columnasA != filasB)
+        {
+            throw new InvalidOperationException("El número de columnas de A debe ser igual al número de filas de B para poder multiplicarlas.");
+        }
+
+        // Crear la matriz resultado C de tamaño filasA x columnasB
+        int[,] C = new int[filasA, columnasB];
+
+        // Multiplicar A por B y almacenar el resultado en C
+        for (int i = 0; i < filasA; i++)
+        {
+            for (int j = 0; j < columnasB; j++)
+            {
+                for (int k = 0; k < columnasA; k++)
+                {
+                    C[i, j] += A[i, k] * B[k, j];
+                }
+            }
+        }
+
+        return C;
+    }
+
+
+*/
+
 .data
     // Primera matriz 3x3
     matrixA:     .quad   1, 2, 3
