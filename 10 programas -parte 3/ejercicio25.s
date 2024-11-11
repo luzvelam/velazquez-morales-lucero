@@ -1,7 +1,8 @@
 //lucero velazquez morales no.control 22210362
 //ejercicio 25 -Contar vocales y consonantes
-//fecha:10-11-2024
-//
+//Fecha: 10-11-2024
+// Programa en ARM64 Assembly 
+
 
 /*
 
