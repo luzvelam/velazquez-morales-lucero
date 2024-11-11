@@ -1,7 +1,9 @@
 //lucero velazquez morales no.control 22210362
-//ejercicio 22 -Conversión de ASCII a entero
-// Imprime el entero resultante en la salida estándar
-//
+//ejercicio -Conversión de ASCII a entero
+//Fecha: 10-11-2024
+// Programa en ARM64 Assembly 
+
+
 
 /*
 #include <stdio.h>
