@@ -2,7 +2,59 @@
 //Fecha: 10-11-2024
 // Programa en ARM64 Assembly 
 //ejercicio 21 - Transposición de una matriz
-//
+//video 
+
+
+/*
+#include <stdio.h>
+
+#define SIZE 3  // Tamaño de la matriz (3x3)
+
+// Función para imprimir la matriz
+void print_matrix(long matrix[SIZE][SIZE]) {
+    for (int i = 0; i < SIZE; i++) {
+        for (int j = 0; j < SIZE; j++) {
+            printf("%ld ", matrix[i][j]);
+        }
+        printf("\n");
+    }
+}
+
+// Función para transponer la matriz
+void transpose_matrix(long matrix[SIZE][SIZE], long transposed[SIZE][SIZE]) {
+    for (int i = 0; i < SIZE; i++) {
+        for (int j = 0; j < SIZE; j++) {
+            transposed[j][i] = matrix[i][j];
+        }
+    }
+}
+
+int main() {
+    // Matriz original
+    long matrix[SIZE][SIZE] = {
+        {1, 2, 3},
+        {4, 5, 6},
+        {7, 8, 9}
+    };
+
+    // Matriz transpuesta
+    long transposed[SIZE][SIZE] = {0};
+
+    // Imprimir matriz original
+    printf("Matriz Original:\n");
+    print_matrix(matrix);
+
+    // Transponer la matriz
+    transpose_matrix(matrix, transposed);
+
+    // Imprimir matriz transpuesta
+    printf("Matriz Transpuesta:\n");
+    print_matrix(transposed);
+
+    return 0;
+}
+/*
+
 
 .data
     // Matriz original 3x3
