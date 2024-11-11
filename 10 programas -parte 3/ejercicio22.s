@@ -3,6 +3,43 @@
 // Imprime el entero resultante en la salida estándar
 //
 
+/*
+#include <stdio.h>
+
+int ascii_to_integer(const char *str) {
+    int result = 0;
+    int sign = 1;
+    int i = 0;
+
+    // Manejar signo negativo
+    if (str[0] == '-') {
+        sign = -1;
+        i++;
+    }
+
+    // Convertir caracteres ASCII a entero
+    while (str[i] != '\0') {
+        if (str[i] >= '0' && str[i] <= '9') {
+            result = result * 10 + (str[i] - '0');
+        } else {
+            printf("Caracter no válido: %c\n", str[i]);
+            return 0;  // Retorna 0 si hay un carácter no numérico
+        }
+        i++;
+    }
+
+    return result * sign;
+}
+
+int main() {
+    const char *str = "-12345";
+    int number = ascii_to_integer(str);
+    printf("El número es: %d\n", number);
+
+    return 0;
+}
+*/
+
 
 
 .section .data
