@@ -1,8 +1,7 @@
 //lucero velazquez morales no.control 22210362
 //Fecha: 10-11-2024
 // Programa en ARM64 Assembly 
-//ejercicio 21 - Transposición de una matriz
-//video 
+//ejercicio -Transposición de una matriz
 
 
 /*
