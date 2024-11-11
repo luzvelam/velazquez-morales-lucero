@@ -1,5 +1,7 @@
 //lucero velazquez morales no.control 22210362
-//ejercicio 24 - Calcular la longitud de una cadena
+//ejercicio -Calcular la longitud de una cadena
+//Fecha: 10-11-2024
+// Programa en ARM64 Assembly 
 
 
 /*
