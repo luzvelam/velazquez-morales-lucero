@@ -1,6 +1,7 @@
 //lucero velazquez morales no.control 22210362
-//ejercicio 23- 	Conversión de entero a ASCII
+//ejercicio Conversión de entero a ASCII
 //fecha: 10-11-2024
+// Programa en ARM64 Assembly 
 
 
 /*
