@@ -2,6 +2,7 @@
 //ejercicio Conversión de entero a ASCII
 //fecha: 10-11-2024
 // Programa en ARM64 Assembly 
+//https://asciinema.org/a/VAyol9pXWjI0irbdRSjiYwXfU
 
 
 /*
