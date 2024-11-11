@@ -7,3 +7,4 @@ https://asciinema.org/a/U87bs0MxV6f3dA0MVN3dlofEw
 
 
 10 - ejercicios parte 3
+ejercicio 21 -https://asciinema.org/a/9ojLXbwpgtgVy74l5bL5RivZP
