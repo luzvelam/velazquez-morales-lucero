@@ -1,4 +1,7 @@
-//
+//lucero velazquez morales No.Control 22210362
+//Descripcion:  Convertir decimal a binario
+//Fecha: 12-11-2024
+//Programa en ARM64 Assembly 
 
 /*
 #include <stdio.h>
