@@ -63,6 +63,7 @@ ejercicio 37
 ejercicio 38
 
 ejercicio 39
+https://asciinema.org/a/QAgmU9gzi7qcVTdMyrFdXEaEo
 
 ejercicio 40
 
