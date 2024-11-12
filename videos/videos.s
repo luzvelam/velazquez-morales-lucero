@@ -30,7 +30,7 @@ ejercicio 27
 https://asciinema.org/a/JtcE5HFvQQd44QjRmtbUzEDiz
 
 ejercicio 28
-
+https://asciinema.org/a/Xl51GlkR3FQdV8rSwbWdTT6LC
 
 ejercicio 29
 https://asciinema.org/a/PParsVzOef4eByPdWVukZ9Xo1
