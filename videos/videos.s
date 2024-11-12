@@ -15,3 +15,6 @@ https://asciinema.org/a/ppOJjF0Me7mOgYT7VVg60dIep
 
 ejercicio 23
 https://asciinema.org/a/VAyol9pXWjI0irbdRSjiYwXfU
+
+ejercicio 27
+/https://asciinema.org/a/JtcE5HFvQQd44QjRmtbUzEDiz
