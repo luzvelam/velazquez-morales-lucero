@@ -2,7 +2,9 @@
 //
 //fecha: 11-11-2024
 // Archivo: mcm.s
+//Programa en ARM64 Assembly 
 // Descripción: Implementación del cálculo del MCM usando el algoritmo de Euclides para encontrar el MCD
+
 
 /*
 
