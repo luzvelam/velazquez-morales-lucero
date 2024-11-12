@@ -2,7 +2,7 @@
 //ejercicio 25 -Contar vocales y consonantes
 //Fecha: 11-11-2024
 // Programa en ARM64 Assembly 
-
+//https://asciinema.org/a/rHFxXY5HQGDusun41HzMRdiOm
 
 /*
 
