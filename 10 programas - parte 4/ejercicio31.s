@@ -1,13 +1,40 @@
 //Lucero velazquez morales No.Control 22210362
-//
 //fecha: 11-11-2024
 // Archivo: mcm.s
 //Programa en ARM64 Assembly 
-// Descripción: Implementación del cálculo del MCM usando el algoritmo de Euclides para encontrar el MCD
+// Descripción: Cálculo del MCM en ensamblador ARM64
+
 
 
 /*
+#include <stdio.h>
 
+// Declaración de la función ensambladora
+extern long mcm_func(long a, long b);
+
+int main() {
+    long a, b;
+
+    // Capturar los valores de a y b desde el usuario
+    printf("Ingrese el primer número: ");
+    scanf("%ld", &a);
+    printf("Ingrese el segundo número: ");
+    scanf("%ld", &b);
+
+    // Validar que los números sean positivos
+    if (a <= 0 || b <= 0) {
+        printf("Error: Ambos números deben ser positivos y mayores que cero.\n");
+        return 1;
+    }
+
+    // Llamar a la función ensambladora que ejecuta el cálculo del MCM
+    long result = mcm_func(a, b);
+
+    // Imprimir el resultado
+    printf("El MCM de %ld y %ld es: %ld\n", a, b, result);
+
+    return 0;
+}
 
 
 */
@@ -15,41 +42,36 @@
 
 
 .global mcm_func
-.type mcm_func, %function
+.text
 
-// Función principal para calcular el MCM
-mcm_func:
-    // Argumentos en X0 y X1
-    // X0 = a, X1 = b
-
-    // Llamar a la función gcd (MCD)
-    mov x2, x0          // Copiar a en x2
-    mov x3, x1          // Copiar b en x3
-    bl gcd_func         // Llamar a la función gcd_func
-
-    // Guardar el resultado de gcd en x4
-    mov x4, x0          // x0 tiene el MCD
-
-    // Calcular el producto a * b
-    mul x5, x2, x3      // x5 = a * b
-
-    // Dividir el producto por el MCD: (a * b) / MCD(a, b)
-    sdiv x0, x5, x4     // x0 = (a * b) / MCD(a, b)
-
-    // Retornar el resultado (MCM)
+// Función que calcula el MCD
+gcd:
+    cmp x1, x0            // Comparar b y a
+    b.eq end_gcd          // Si son iguales, termina
+    b.gt greater          // Si b > a, saltar a 'greater'
+    sub x0, x0, x1        // Resta b de a
+    b gcd                 // Repite
+greater:
+    sub x1, x1, x0        // Resta a de b
+    b gcd                 // Repite
+end_gcd:
+    mov x0, x0            // MCD almacenado en x0
     ret
 
-// Algoritmo de Euclides para calcular el MCD
-gcd_func:
-    cmp x0, x1          // Comparar a y b
-    beq end_gcd         // Si son iguales, saltar al final
-    bgt sub_a           // Si a > b, saltar a restar b de a
-    sub x1, x1, x0      // Si a < b, restar a de b
-    b gcd_func          // Volver a empezar
+// Función principal mcm_func
+mcm_func:
+    stp x29, x30, [sp, -16]!  // Guardar registros de marco
+    mov x29, sp               // Actualizar marco de pila
 
-sub_a:
-    sub x0, x0, x1      // Restar b de a
-    b gcd_func          // Volver a empezar
+    mov x2, x0                // Guardar a en x2
+    mov x3, x1                // Guardar b en x3
 
-end_gcd:
-    ret                 // Retornar el resultado del MCD (x0)
+    bl gcd                    // Llamar a gcd(a, b)
+    mov x4, x0                // Guardar resultado del MCD en x4
+
+    // Calcular MCM = (a * b) / MCD
+    mul x0, x2, x3            // Multiplicar a y b
+    udiv x0, x0, x4           // Dividir el producto por el MCD
+
+    ldp x29, x30, [sp], 16    // Restaurar registros de marco
+    ret
