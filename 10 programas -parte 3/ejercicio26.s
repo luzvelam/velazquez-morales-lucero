@@ -2,6 +2,7 @@
 //Operaciones AND, OR, XOR a nivel de bits
 //fecha: 11-11-2024
 // Programa en ARM64 Assembly 
+// https://asciinema.org/a/w3r10VxAVdF7LVQXkJc3TwScj
 
 
 /*
