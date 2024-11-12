@@ -2,6 +2,7 @@
 //Máximo Común Divisor (MCD)
 //Fecha: 11-11-2024
 // Programa en ARM64 Assembly 
+// https://asciinema.org/a/PQhGOe7HibNbwVngCDirwtJhn
 
 /*
 
