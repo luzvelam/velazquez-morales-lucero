@@ -24,7 +24,7 @@ ejercicio 25
 https://asciinema.org/a/rHFxXY5HQGDusun41HzMRdiOm
 
 ejercicio 26
-https://asciinema.org/a/JtcE5HFvQQd44QjRmtbUzEDiz
+https://asciinema.org/a/w3r10VxAVdF7LVQXkJc3TwScj
 
 ejercicio 27
 https://asciinema.org/a/JtcE5HFvQQd44QjRmtbUzEDiz
