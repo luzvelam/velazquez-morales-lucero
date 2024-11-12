@@ -5,6 +5,31 @@
 
 
 /*
+#include <stdio.h>
+
+int main() {
+    unsigned int num1, num2;
+    
+    // Solicitar entrada al usuario
+    printf("Ingrese el primer número: ");
+    scanf("%u", &num1);
+    printf("Ingrese el segundo número: ");
+    scanf("%u", &num2);
+
+    // Operación AND
+    unsigned int and_result = num1 & num2;
+    printf("AND: %u & %u = %u\n", num1, num2, and_result);
+
+    // Operación OR
+    unsigned int or_result = num1 | num2;
+    printf("OR: %u | %u = %u\n", num1, num2, or_result);
+
+    // Operación XOR
+    unsigned int xor_result = num1 ^ num2;
+    printf("XOR: %u ^ %u = %u\n", num1, num2, xor_result);
+
+    return 0;
+}
 
 */
 
