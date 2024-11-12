@@ -2,6 +2,7 @@
 //Descripcion: Implementar una cola usando un arreglo
 //Fecha : 12-11-2024
 //Programa en ARM64 Assembly 
+// https://asciinema.org/a/k32JzRJmMDsE2KfI8lbbSeO50
 
 /*
 #include <stdio.h>
