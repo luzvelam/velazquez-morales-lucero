@@ -50,6 +50,10 @@ ejercicio 33
 https://asciinema.org/a/KVjA8zzalIIWyYcaItMZNoyXR
 
 ejercicio 34
+https://asciinema.org/a/MStC8tvP2PkjHkVHZpMPDolGf
+
+ejercicio 35
+
 
 
 
