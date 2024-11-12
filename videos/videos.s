@@ -66,6 +66,8 @@ ejercicio 39
 https://asciinema.org/a/QAgmU9gzi7qcVTdMyrFdXEaEo
 
 ejercicio 40
+ https://asciinema.org/a/k32JzRJmMDsE2KfI8lbbSeO50
+ 
 
 
 
