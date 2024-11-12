@@ -21,7 +21,7 @@ ejercicio 24
 https://asciinema.org/a/9h5H0ejDaH3etTecfjWaBDeLi
 
 ejercicio 25
-https://asciinema.org/a/9h5H0ejDaH3etTecfjWaBDeLi
+https://asciinema.org/a/rHFxXY5HQGDusun41HzMRdiOm
 
 ejercicio 26
 
