@@ -7,6 +7,7 @@ https://asciinema.org/a/U87bs0MxV6f3dA0MVN3dlofEw
 
 
 10 - ejercicios parte 3 -//Incluyendo la corrida del debugger GEF
+
 ejercicio 21 
 https://asciinema.org/a/9ojLXbwpgtgVy74l5bL5RivZP
 
@@ -21,3 +22,6 @@ https://asciinema.org/a/JtcE5HFvQQd44QjRmtbUzEDiz
 
 ejercicio 29
 https://asciinema.org/a/PParsVzOef4eByPdWVukZ9Xo1
+
+ejercicio 30
+https://asciinema.org/a/PQhGOe7HibNbwVngCDirwtJhn
