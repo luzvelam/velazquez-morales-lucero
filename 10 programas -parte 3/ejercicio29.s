@@ -2,22 +2,17 @@
 //Contar los bits activados en un número
 //Fecha: 10-11-2024
 // Programa en ARM64 Assembly 
+//https://asciinema.org/a/PParsVzOef4eByPdWVukZ9Xo1
 
 /*
 #include <stdio.h>
 
-extern unsigned long count_set_bits(unsigned long num);
+extern int count_bits(unsigned long number);
 
 int main() {
-    unsigned long num;
-    
-    // Solicitar al usuario que ingrese un número
-    printf("Introduce un número: ");
-    scanf("%lu", &num);  // Leer el número desde la entrada
-
-    // Llamar a la función ensamblada para contar los bits activados
-    printf("Número de bits activados en %lu es: %lu\n", num, count_set_bits(num));
-
+    unsigned long num = 0xF0F0F0F0F0F0F0F0;
+    int result = count_bits(num);
+    printf("Número de bits activados: %d\n", result);
     return 0;
 }
 
@@ -25,25 +20,19 @@ int main() {
 */
 
 
-.global count_set_bits
-.type count_set_bits, %function
+.global count_bits
 
-count_set_bits:
-    mov     x1, x0          // Copiar el número a x1
-    mov     x0, #0          // Inicializar el contador de bits activados a 0
+count_bits:
+    mov     x1, #0          // Inicializar el contador de bits activados
+    mov     x2, x0          // Copiar el número a procesar (x0)
 
 count_loop:
-    cmp     x1, #0          // Comprobar si el número es 0
-    beq     end             // Si es 0, hemos terminado
+    and     x3, x2, #1      // Obtener el bit menos significativo
+    add     x1, x1, x3      // Sumar 1 si el bit está activado
+    lsr     x2, x2, #1      // Desplazar el número a la derecha
+    cmp     x2, #0          // Comparar si el número ha llegado a 0
+    bne     count_loop      // Si el número no es 0, continuar el ciclo
 
-    // Eliminar el bit más bajo activado (x1 = x1 & (x1 - 1))
-    subs    x1, x1, #1      // x1 = x1 - 1
-    and     x1, x1, x0      // x1 = x1 & x0
-
-    // Incrementar el contador de bits activados
-    add     x0, x0, #1      // Incrementar el contador de bits activados
-
-    b       count_loop      // Repetir el bucle
-
-end:
+    mov     x0, x1          // Devolver el contador
     ret
+
