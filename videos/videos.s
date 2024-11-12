@@ -38,7 +38,8 @@ https://asciinema.org/a/PParsVzOef4eByPdWVukZ9Xo1
 ejercicio 30
 https://asciinema.org/a/PQhGOe7HibNbwVngCDirwtJhn
 
-10 - ejercicios parte 4 -//Incluyendo la corrida del debugger GEF  (31 -40)
+
+10 - Ejercicios parte 4 -//Incluyendo la corrida del debugger GEF  (31 -40)
 
 ejercicio 31
 https://asciinema.org/a/388dw2uEOjEmJFUeguZa5MLof
@@ -53,6 +54,16 @@ ejercicio 34
 https://asciinema.org/a/MStC8tvP2PkjHkVHZpMPDolGf
 
 ejercicio 35
+
+ejercicio 36
+
+ejercicio 37
+
+ejercicio 38
+
+ejercicio 39
+
+ejercicio 40
 
 
 
