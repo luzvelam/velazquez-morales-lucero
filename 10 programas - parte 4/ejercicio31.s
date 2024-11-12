@@ -1,8 +1,9 @@
 //Lucero velazquez morales No.Control 22210362
 //fecha: 11-11-2024
-// Archivo: mcm.s
 //Programa en ARM64 Assembly 
 // Descripción: Cálculo del MCM en ensamblador ARM64
+//https://asciinema.org/a/388dw2uEOjEmJFUeguZa5MLof
+
 
 
 
