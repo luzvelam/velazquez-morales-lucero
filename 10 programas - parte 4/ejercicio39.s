@@ -39,29 +39,28 @@ _start:
     bl print_string
 
     // Cargar el número decimal a convertir
-    ldr w1, =num         // Cargar la dirección del número
-    ldr w1, [w1]         // Cargar el número en w1
+    ldr w1, =num         // Cargar el valor de 'num' en w1
 
     // Convertir a binario y almacenar el resultado en bin_str
-    mov x2, 31           // Contador para el bit más significativo (comenzamos desde el bit 31)
+    mov w2, #31          // Contador para el bit más significativo (comenzamos desde el bit 31)
     ldr x3, =bin_str     // Dirección de la cadena binaria
 
 convert_loop:
-    cmp x2, -1           // Si el contador es menor a 0, terminamos
+    cmp w2, #0           // Si el contador es menor a 0, terminamos
     blt done
 
-    // Obtener el bit en la posición x2
-    lsr x4, w1, x2       // Desplazar el número hacia la derecha
-    and x4, x4, #1       // Obtener el bit (0 o 1)
+    // Obtener el bit en la posición w2
+    lsr w4, w1, w2       // Desplazar el número hacia la derecha (w1)
+    and w4, w4, #1       // Obtener el bit (0 o 1)
 
     // Convertir el bit a ASCII (0 o 1)
-    add x4, x4, #48      // '0' tiene valor ASCII 48
+    add w4, w4, #48      // '0' tiene valor ASCII 48
 
     // Guardar el bit en la cadena binaria
     strb w4, [x3], #1    // Almacenar el byte y mover el puntero
 
     // Reducir el contador
-    sub x2, x2, #1
+    sub w2, w2, #1
     b convert_loop
 
 done:
