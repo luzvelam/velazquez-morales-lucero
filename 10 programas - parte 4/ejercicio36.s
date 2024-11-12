@@ -2,7 +2,7 @@
 //fecha: 12-11-2024
 //Programa en ARM64 Assembly 
 // Descripción: Encontrar el segundo elemento más grande
-
+// https://asciinema.org/a/SSS3tkG7CVGtUGtaEceJtWqUa
 
 /*
 #include <stdio.h>
