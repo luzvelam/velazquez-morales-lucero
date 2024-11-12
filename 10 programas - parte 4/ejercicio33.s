@@ -2,6 +2,7 @@
 //Suma de elementos en un arreglo
 //Fecha: 12-11-2024
 //Programa en ARM64 Assembly 
+//https://asciinema.org/a/KVjA8zzalIIWyYcaItMZNoyXR
 
 /*
 #include <stdio.h>
