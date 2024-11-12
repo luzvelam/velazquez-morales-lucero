@@ -5,6 +5,27 @@
 
 
 /*
+#include <stdio.h>
+
+int main() {
+    unsigned int num, shift;
+
+    // Solicitar entrada al usuario
+    printf("Ingrese un número: ");
+    scanf("%u", &num);
+    printf("Ingrese el número de posiciones para el desplazamiento: ");
+    scanf("%u", &shift);
+
+    // Desplazamiento a la izquierda
+    unsigned int left_shift = num << shift;
+    printf("Desplazamiento a la izquierda: %u << %u = %u\n", num, shift, left_shift);
+
+    // Desplazamiento a la derecha
+    unsigned int right_shift = num >> shift;
+    printf("Desplazamiento a la derecha: %u >> %u = %u\n", num, shift, right_shift);
+
+    return 0;
+}
 
 
 */
