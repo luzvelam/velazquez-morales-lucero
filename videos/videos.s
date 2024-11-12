@@ -1,12 +1,12 @@
-10- ejercicios parte 1
+10- ejercicios parte 1   (1 -10)
 https://asciinema.org/a/Sc47XmGQH9WIxP9BtVVMwu8CQ
 
-10 -ejercicios parte 2
+10 -ejercicios parte 2  (11-20)
 
 https://asciinema.org/a/U87bs0MxV6f3dA0MVN3dlofEw
 
 
-10 - ejercicios parte 3 -//Incluyendo la corrida del debugger GEF
+10 - ejercicios parte 3 -//Incluyendo la corrida del debugger GEF (21 -30)
 
 ejercicio 21 
 https://asciinema.org/a/9ojLXbwpgtgVy74l5bL5RivZP
@@ -37,3 +37,7 @@ https://asciinema.org/a/PParsVzOef4eByPdWVukZ9Xo1
 
 ejercicio 30
 https://asciinema.org/a/PQhGOe7HibNbwVngCDirwtJhn
+
+10 - ejercicios parte 4 -//Incluyendo la corrida del debugger GEF  (31 -40)
+ejercicio 31
+https://asciinema.org/a/388dw2uEOjEmJFUeguZa5MLof
