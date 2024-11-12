@@ -47,5 +47,9 @@ ejercicio 32
 https://asciinema.org/a/TiMJAUAthwoHQYnvSQRrNdBAD
 
 ejercicio 33
+https://asciinema.org/a/KVjA8zzalIIWyYcaItMZNoyXR
+
+ejercicio 34
+
 
 
