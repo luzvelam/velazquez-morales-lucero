@@ -63,7 +63,8 @@ ejercicio 37
  https://asciinema.org/a/Ia1rVLrANrTCamAV7Cl3lRqax
 
 ejercicio 38
-
+ https://asciinema.org/a/EY1XD1I5xIB323BwRHxuQT4dK
+ 
 ejercicio 39
 https://asciinema.org/a/QAgmU9gzi7qcVTdMyrFdXEaEo
 
