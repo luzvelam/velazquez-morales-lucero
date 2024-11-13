@@ -54,6 +54,7 @@ ejercicio 34
 https://asciinema.org/a/MStC8tvP2PkjHkVHZpMPDolGf
 
 ejercicio 35
+https://asciinema.org/a/mWfngPfnw9grhnFFR3NxxsK8A
 
 ejercicio 36
  https://asciinema.org/a/SSS3tkG7CVGtUGtaEceJtWqUa
