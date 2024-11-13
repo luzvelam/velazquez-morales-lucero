@@ -2,6 +2,7 @@
 //Descripcion: Rotación de un arreglo (izquierda/derecha)
 //Fecha : 12-11-2024
 //Programa en ARM64 Assembly 
+//https://asciinema.org/a/mWfngPfnw9grhnFFR3NxxsK8A
 
 /*
 #include <stdio.h>
