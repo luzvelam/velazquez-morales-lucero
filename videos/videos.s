@@ -60,6 +60,7 @@ ejercicio 36
  https://asciinema.org/a/SSS3tkG7CVGtUGtaEceJtWqUa
 
 ejercicio 37
+ https://asciinema.org/a/Ia1rVLrANrTCamAV7Cl3lRqax
 
 ejercicio 38
 
