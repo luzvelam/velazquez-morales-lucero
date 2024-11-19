@@ -91,6 +91,9 @@ ejercicio 40
 
  ejercicio 46
  https://asciinema.org/a/rXqJjOMcnL2RU2G7fPGBmbZx9
+
+ ejercicio 47
+ https://asciinema.org/a/bziAl2XLkDZ7xwCgN6VX0qTGO
  
 
 
