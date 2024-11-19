@@ -97,7 +97,9 @@ ejercicio 40
 
  ejercicio 48
  https://asciinema.org/a/RyksieMnayoU4hMNqVWOXJSTL
- 
+
+ ejercicio 49
+ https://asciinema.org/a/eJt4izfN50VtjVikMuXsKstjN
 
 
 
