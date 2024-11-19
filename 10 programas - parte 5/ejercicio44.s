@@ -2,7 +2,7 @@
 //Descripcion: Generación de números aleatorios (con semilla)
 //fecha: 18-11-2024
 //Programa en ARM64 Assembly 
-
+//https://asciinema.org/a/hNIwMvo4Ja5h0xHgebGDAUT6O
 
 /*
 #include <stdio.h>
