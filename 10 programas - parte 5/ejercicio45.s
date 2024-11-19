@@ -3,9 +3,48 @@
 //fecha: 18-11-2024
 //Programa en ARM64 Assembly 
 
-
-
 /*
+#include <stdio.h>
+#include <math.h>
+
+// Función para contar los dígitos de un número
+int contar_digitos(int numero) {
+    int digitos = 0;
+    while (numero != 0) {
+        numero /= 10;
+        digitos++;
+    }
+    return digitos;
+}
+
+// Función para verificar si un número es Armstrong
+int es_armstrong(int numero) {
+    int digitos = contar_digitos(numero);
+    int suma = 0, temp = numero;
+
+    while (temp != 0) {
+        int digito = temp % 10;
+        suma += pow(digito, digitos);
+        temp /= 10;
+    }
+
+    return suma == numero;
+}
+
+int main() {
+    int numero;
+
+    printf("Ingrese un número para verificar si es Armstrong: ");
+    scanf("%d", &numero);
+
+    if (es_armstrong(numero)) {
+        printf("%d es un número Armstrong.\n", numero);
+    } else {
+        printf("%d no es un número Armstrong.\n", numero);
+    }
+
+    return 0;
+}
 
 */
 
