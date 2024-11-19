@@ -1,4 +1,61 @@
+//Lucero velazquez morales No.Control 22210362
+//Descripcion: 	Encontrar prefijo común más largo en cadenas
+//fecha: 18-11-2024
+//Programa en ARM64 Assembly 
 
+/*
+#include <stdio.h>
+#include <string.h>
+
+// Función para encontrar el prefijo común más largo
+char* prefijo_comun_mas_largo(char cadenas[][100], int n) {
+    static char prefijo[100];  // Buffer para almacenar el prefijo común
+    strcpy(prefijo, cadenas[0]); // Inicializamos con la primera cadena
+
+    for (int i = 1; i < n; i++) {
+        int j = 0;
+        // Comparamos carácter por carácter
+        while (prefijo[j] && cadenas[i][j] && prefijo[j] == cadenas[i][j]) {
+            j++;
+        }
+        prefijo[j] = '\0';  // Terminamos el prefijo cuando no hay coincidencia
+
+        // Si el prefijo se vacía, no hay prefijo común
+        if (strlen(prefijo) == 0) {
+            break;
+        }
+    }
+
+    return prefijo;
+}
+
+int main() {
+    int n;
+
+    printf("Ingrese el número de cadenas: ");
+    scanf("%d", &n);
+
+    char cadenas[n][100];  // Array para almacenar las cadenas
+
+    // Leer las cadenas
+    for (int i = 0; i < n; i++) {
+        printf("Ingrese la cadena %d: ", i + 1);
+        scanf("%s", cadenas[i]);
+    }
+
+    // Encontrar el prefijo común más largo
+    char* prefijo = prefijo_comun_mas_largo(cadenas, n);
+
+    if (strlen(prefijo) > 0) {
+        printf("El prefijo común más largo es: \"%s\"\n", prefijo);
+    } else {
+        printf("No hay un prefijo común.\n");
+    }
+
+    return 0;
+}
+
+*/
 
 .data
     prompt1:   .asciz "Ingrese la primera cadena: "
