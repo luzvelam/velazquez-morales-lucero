@@ -31,12 +31,6 @@ int main() {
 */
 
 
-
-
-
-
-
-
 .global _start
 
 .section .data
