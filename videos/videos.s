@@ -100,7 +100,8 @@ ejercicio 40
 
  ejercicio 49
  https://asciinema.org/a/eJt4izfN50VtjVikMuXsKstjN
-
-
+ 
+ ejercicio 50
+ https://asciinema.org/a/ve14dKdz0GZHmqgEwhDYCmvZD
 
 
