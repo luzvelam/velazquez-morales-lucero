@@ -2,6 +2,7 @@
 //Descripcion:Leer entrada desde el teclado
 //fecha: 18-11-2024
 //Programa en ARM64 Assembly 
+//https://asciinema.org/a/eJt4izfN50VtjVikMuXsKstjN
 
 /*
 #include <stdio.h>
