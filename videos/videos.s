@@ -82,6 +82,9 @@ ejercicio 40
 
  ejercicio 43
  https://asciinema.org/a/LvCMwGIoFei2fp7GM0Q1Dt0KD
+
+ ejercicio 44
+ https://asciinema.org/a/hNIwMvo4Ja5h0xHgebGDAUT6O
  
 
 
