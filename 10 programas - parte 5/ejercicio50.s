@@ -1,5 +1,33 @@
+//Lucero velazquez morales No.Control 22210362
+//Descripcion: 	Escribir en un archivo
+//fecha: 18-11-2024
+//Programa en ARM64 Assembly 
 
 
+/*
+#include <stdio.h>
+
+int main() {
+    // Abrir el archivo en modo escritura
+    FILE *archivo = fopen("output.txt", "w");
+    if (archivo == NULL) {
+        perror("Error al abrir el archivo");
+        return 1;
+    }
+
+    // Escribir texto en el archivo
+    fprintf(archivo, "Hola desde ensamblador ARM64\n");
+    fprintf(archivo, "Escribiendo más líneas...\n");
+
+    // Cerrar el archivo
+    fclose(archivo);
+
+    printf("Texto escrito correctamente en output.txt\n");
+    return 0;
+}
+
+
+*/
 
 
 
