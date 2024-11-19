@@ -77,6 +77,10 @@ ejercicio 40
  ejercicio 41
  https://asciinema.org/a/ejRWRLR54bEyTl1j7yCfrhKjL
 
+ ejercicio 42
+ https://asciinema.org/a/imCiMTQDcxwDg5tdx1UlSUa5L
+ 
+
 
 
 
