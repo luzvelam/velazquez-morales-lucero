@@ -1,3 +1,8 @@
+//Lucero velazquez morales No.Control 22210362
+//Descripcion: Generación de números aleatorios (con semilla)
+//fecha: 18-11-2024
+//Programa en ARM64 Assembly 
+
 
 /*
 #include <stdio.h>
