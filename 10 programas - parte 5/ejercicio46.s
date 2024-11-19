@@ -2,6 +2,7 @@
 //Descripcion: 	Encontrar prefijo común más largo en cadenas
 //fecha: 18-11-2024
 //Programa en ARM64 Assembly 
+//https://asciinema.org/a/rXqJjOMcnL2RU2G7fPGBmbZx9
 
 /*
 #include <stdio.h>
