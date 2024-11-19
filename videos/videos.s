@@ -70,7 +70,12 @@ https://asciinema.org/a/QAgmU9gzi7qcVTdMyrFdXEaEo
 
 ejercicio 40
  https://asciinema.org/a/k32JzRJmMDsE2KfI8lbbSeO50
- 
+
+
+10 - Ejercicios parte 5 -//Incluyendo la corrida del debugger GEF  (41 -50)
+
+ ejercicio 41
+ https://asciinema.org/a/ejRWRLR54bEyTl1j7yCfrhKjL
 
 
 
